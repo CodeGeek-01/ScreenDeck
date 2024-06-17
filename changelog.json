@@ -1,1 +1,7 @@
-[]
+[
+    {
+        "version": "1.0.0",
+        "date": "17-06-2024",
+        "changes": "- Added a loading animation when you open an app\n- Added an `INVISIBLE` option for settings\n  - This will prevent the setting from showing in the Settings menu\n- Added module:\n  - `keyboard`\n- Removed module\n  - `requests`\n- Added password protection in URL\n  - This is to prevent other people who have your IP from using your server\n- Fixed an issue where `Saturday` would show up as `Sunday`\n\n"
+    }
+]
