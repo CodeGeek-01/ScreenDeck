@@ -6,5 +6,13 @@
         "min_version": "1.0.0",
         "default": "Yes",
         "date": "17-06-2024"
+    },
+    {
+        "name": "Hotkeys",
+        "description": "Enhance your efficiency with the Hotkeys app! Customize and manage button shortcuts for all your favorite applications. Simplify tasks, save time, and streamline your workflow.",
+        "author": "CodeGeek",
+        "min_version": "1.0.0",
+        "default": "Yes",
+        "date": "17-06-2024"
     }
 ]
