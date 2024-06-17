@@ -1,1 +1,10 @@
-[]
+[
+    {
+        "name": "Weather",
+        "description": "Get accurate, up-to-the-minute weather updates. Stay informed and prepared with the user-friendly interface.",
+        "author": "CodeGeek",
+        "min_version": "1.0.0",
+        "default": "Yes",
+        "date": "17-06-2024"
+    }
+]
