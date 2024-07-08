@@ -17,6 +17,7 @@ app = Flask(__name__)
 
 sdApps = []
 
+# Don't mind the shitty code please :D 
 
 @app.route('/')
 def home():
