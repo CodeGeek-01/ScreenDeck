@@ -11,6 +11,7 @@ A customizable, lightweight program that transforms your phone or tablet into a 
 - **Weather Updates:** Stay informed with real-time weather information.
 - **Password Manager:** Securely access and manage your passwords.
 - **Translate Tool:** Instantly translate text in one click.
+*More coming later*
 
 ---
 
