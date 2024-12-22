@@ -1,15 +1,39 @@
 [
     {
-        "name": "Weather",
-        "description": "Get accurate, up-to-the-minute weather updates. Stay informed and prepared with the user-friendly interface.",
+        "name": "Hotkeys",
+        "description": "Enhance your efficiency with the Hotkeys app! Customize and manage button shortcuts for all your favorite applications. Simplify tasks, save time, and streamline your workflow.",
         "author": "CodeGeek",
         "min_version": "1.0.0",
         "default": "Yes",
-        "date": "17-06-2024"
+        "date": "12-06-2024"
     },
     {
-        "name": "Hotkeys",
-        "description": "Enhance your efficiency with the Hotkeys app! Customize and manage button shortcuts for all your favorite applications. Simplify tasks, save time, and streamline your workflow.",
+        "name": "Passwords",
+        "description": "A password manager that safely stores and auto-fills your login credentials.",
+        "author": "CodeGeek",
+        "min_version": "1.0.0",
+        "default": "Yes",
+        "date": "10-07-2024"
+    },
+    {
+        "name": "Spotify Widget",
+        "description": "A Spotify widget that displays the song you’re currently listening to in real-time.",
+        "author": "CodeGeek",
+        "min_version": "1.0.0",
+        "default": "No",
+        "date": "20-12-2024"
+    },
+    {
+        "name": "Translate",
+        "description": "A fast translation app that lets you translate text with a single click.",
+        "author": "CodeGeek",
+        "min_version": "1.0.0",
+        "default": "Yes",
+        "date": "16-12-2024"
+    },
+    {
+        "name": "Weather",
+        "description": "Get accurate, up-to-the-minute weather updates. Stay informed and prepared with the user-friendly interface.",
         "author": "CodeGeek",
         "min_version": "1.0.0",
         "default": "Yes",
