@@ -21,7 +21,8 @@ except FileNotFoundError:
 					"ip": "",
 					"port": "5000"
 				}
-			}, file) 
+			}, file)
+	PASSWORD = "0000"
 
 app = Flask(__name__)
 
