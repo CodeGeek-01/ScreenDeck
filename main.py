@@ -18,7 +18,7 @@ except FileNotFoundError:
 			json.dump({
 				"ScreenDeck": {
 					"password": "0000",
-					"ip": "192.168.1.124",
+					"ip": "",
 					"port": "5000"
 				}
 			}, file) 
