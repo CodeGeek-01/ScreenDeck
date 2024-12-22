@@ -30,7 +30,7 @@ A customizable, lightweight program that transforms your phone or tablet into a 
 
 ## Contributions
 
-Contributions are welcome! If you have ideas for a new app, or if you're looking to publish one, please contact [codegeek01@hotmail.com].
+Contributions are welcome! If you have ideas for a new app, or if you're looking to publish one, please contact [me](mailto:codegeek01@hotmail.com).
 
 ---
 
