@@ -36,7 +36,7 @@ Contributions are welcome! If you have ideas for a new app, or if you're looking
 
 ## License
 
-This project is licensed under the ... License. See the `LICENSE` file for more details.
+This project is not licensed. All rights are reserved by the author, CodeGeek01. You may not use, modify, or distribute this code without explicit permission.
 
 ---
 
