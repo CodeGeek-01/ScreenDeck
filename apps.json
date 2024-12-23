@@ -15,7 +15,7 @@
         "min_version": "1.0.0",
         "default": "Yes",
         "date": "10-07-2024",
-        "descriptionMD": "## Overview\nThe Password Manager is a secure and efficient tool designed to:\n\n- Store all your passwords safely behind a single, secure **login password**.\n- Automatically fill in your username or password with a single click, saving you time and effort.\n\n## Features\n\n### Secure Storage\n- All your passwords are encrypted and stored securely.\n- Access everything with a single, master **login password**, ensuring your data remains private and protected.\nWarning: Your **login password** cannot be recovered. Ensure you remember it.\n\n### One-Click Autofill\n- Easily auto-fill your saved usernames and passwords on websites or apps.\n- Streamline your login process and avoid the hassle of typing credentials repeatedly."
+        "descriptionMD": "## Overview\nThe Password Manager is a secure and efficient tool designed to:\n\n- Store all your passwords safely behind a single, secure **login password**.\n- Automatically fill in your username or password with a single click, saving you time and effort.\n\n## Secure Storage\n- All your passwords are encrypted and stored securely.\n- Access everything with a single, master **login password**, ensuring your data remains private and protected.\nWarning: Your **login password** cannot be recovered. Ensure you remember it.\n- Easily auto-fill your saved usernames and passwords on websites or apps.\n- Streamline your login process and avoid the hassle of typing credentials repeatedly."
     },
     {
         "name": "Spotify Widget",
