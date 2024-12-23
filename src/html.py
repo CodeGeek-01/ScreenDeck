@@ -95,13 +95,29 @@ def mainSettingsWrapper(settings):
 
     </style>
     <div style="width: 90%; height: 55vh; overflow-y: scroll;">
-      <h1 style="font-weight: bold;">Settings</h1>
+      <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
+        <h1 style="font-weight: bold;">Settings</h1>
+        <button onclick="killServer()" style="appearance: button; backface-visibility: hidden; font-weight: bold; background-color: #ED3419; border-radius: 6px; border-width: 0; box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset, rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0; box-sizing: border-box; color: white; cursor: pointer; font-family: -apple-system, system-ui, 'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, sans-serif; font-size: 75%; height: 30px; line-height: 1.15; margin: 2px 0 0; outline: none; overflow: hidden; padding: 0 16px; position: relative; text-align: center; text-transform: none; transform: translateZ(0); transition: all 0.2s, box-shadow 0.08s ease-in; user-select: none; -webkit-user-select: none; touch-action: manipulation;">Kill Server</button>
+      </div>
       {settings}
       <center>
         <button onclick="saveSettings()" style="appearance: button; backface-visibility: hidden; font-weight: bold; background-color: #39FF14; border-radius: 6px; border-width: 0; box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset, rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0; box-sizing: border-box; color: black; cursor: pointer; font-family: -apple-system, system-ui, 'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, sans-serif; font-size: 100%; height: 44px; line-height: 1.15; margin: 2px 0 0; outline: none; overflow: hidden; padding: 0 16px; position: relative; text-align: center; text-transform: none; transform: translateZ(0); transition: all 0.2s, box-shadow 0.08s ease-in; user-select: none; -webkit-user-select: none; touch-action: manipulation;">Save</button>
       </center>
     </div>
     <script>
+      function killServer() {{
+        let text = "Are you sure you want to shut down the server? This will require you to restart it manually";
+        if (confirm(text) == true) {{
+          fetch(`/killServer?password=${{([...(new URLSearchParams(window.location.search))]).reduce((prev,curr)=>(Object.assign(prev,{{[curr[0]]:curr[1]}})),{{}})["password"]}}`, {{
+            method: 'POST',
+            headers: {{
+              'Content-Type': 'application/json'
+            }},
+            body: JSON.stringify({{}})
+          }})
+        }}
+      }}
+
       async function saveSettings() {{
         document.getElementById("loading").style.display = "flex"
         data = {{}}
