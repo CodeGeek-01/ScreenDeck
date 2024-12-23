@@ -5,7 +5,8 @@
         "author": "CodeGeek",
         "min_version": "1.0.0",
         "default": "Yes",
-        "date": "12-06-2024"
+        "date": "12-06-2024",
+        "descriptionMD": "## Overview\nThe Hotkeys program is a versatile and user-friendly tool that allows you to:\n\n- Execute key combinations or commands with a single click.\n- Access these shortcuts directly from your phone, making it convenient and efficient to manage tasks remotely.\n\n## Features\n\n### Customizable Layout\n- Adjust the **number of rows and columns** to suit your needs through the **Settings Screen**.\n- Create layouts that perfectly match your workflow and device.\n\n### Fully Customizable Buttons\n- Personalize each button with:\n  - **Icons**: Add visual identifiers for easy recognition.\n  - **Actions**: Assign specific key combinations or commands to each button.\n- Tailor the interface to fit your preferences and make tasks quicker and easier to perform."
     },
     {
         "name": "Passwords",
@@ -13,7 +14,8 @@
         "author": "CodeGeek",
         "min_version": "1.0.0",
         "default": "Yes",
-        "date": "10-07-2024"
+        "date": "10-07-2024",
+        "descriptionMD": "## Overview\nThe Password Manager is a secure and efficient tool designed to:\n\n- Store all your passwords safely behind a single, secure **login password**.\n- Automatically fill in your username or password with a single click, saving you time and effort.\n\n## Features\n\n### Secure Storage\n- All your passwords are encrypted and stored securely.\n- Access everything with a single, master **login password**, ensuring your data remains private and protected.\nWarning: Your **login password** cannot be recovered. Ensure you remember it.\n\n### One-Click Autofill\n- Easily auto-fill your saved usernames and passwords on websites or apps.\n- Streamline your login process and avoid the hassle of typing credentials repeatedly."
     },
     {
         "name": "Spotify Widget",
@@ -21,7 +23,8 @@
         "author": "CodeGeek",
         "min_version": "1.0.0",
         "default": "No",
-        "date": "20-12-2024"
+        "date": "20-12-2024",
+        "descriptionMD": "## Overview\nThe Spotify Widget is a convenient tool that:\n\n- Displays your currently playing Spotify song in real-time.\n- Provides an aesthetic addition to your setup.\n\n## Setup Instructions\n\nFollow these steps to set up the Spotify Widget:\n\n1. **Visit the Spotify Developer Dashboard**\n- Go to [Spotify Developer Dashboard](https://developer.spotify.com/dashboard) and log in to your Spotify account.\n\n2. **Create an Application**\n- Click on **Create App**.\n- Provide a name and description for your app (these can be anything).\n\n3. **Set the Redirect URI**\n- Enter the following redirect URI:\n```\nhttp://<ip>:<port>/spotify/callback\n```\n- Replace `<ip>` and `<port>` with the values shown in the widget's **Settings Menu**. \n- By default, the port is set to **5000**.\n\n4. **Finalize the Application**\n- Click **Create** and navigate to the **Settings** page of your newly created app.\n\n5. **Copy the Credentials**\n- Locate the **Client ID** and **Client Secret** values in the app settings.\n- Paste these values into the corresponding fields in the widget's **Settings Menu**.\n\n## Features\n- **Real-Time Updates**: See the currently playing song updated in real-time.\n- **Customizable Display**: Adjust the widget's appearance to suit your style."
     },
     {
         "name": "Translate",
@@ -29,7 +32,8 @@
         "author": "CodeGeek",
         "min_version": "1.0.0",
         "default": "Yes",
-        "date": "16-12-2024"
+        "date": "16-12-2024",
+        "descriptionMD": "## Overview\nThe Translate Tool is a powerful and easy-to-use tool that quickly translates text into any language with just one click.\n\n## How to Use\n\nFollow these steps to utilize the Translate Tool effectively:\n\n1. **Select Text**\n- Highlight the text you want to translate using your mouse on your PC.\n\n2. **Choose Language**\n- On your ScreenDeck device, select the desired language from the wide range of supported options.\n\n3. **Translate**\n- Press the **Translate** button to view the translation directly on your ScreenDeck device.\n- Click **Translate & Replace** to replace the selected text with the translated version instantly.\n\n## Features\n- **One-Click Translation**: Instantly translate text into any language with minimal effort.\n- **Dual Functionality**: Choose between viewing translations or replacing text with translations.\n- **Wide Language Support**: Translate text into numerous languages to meet diverse needs."
     },
     {
         "name": "Weather",
@@ -37,6 +41,7 @@
         "author": "CodeGeek",
         "min_version": "1.0.0",
         "default": "Yes",
-        "date": "17-06-2024"
+        "date": "17-06-2024",
+        "descriptionMD": "## Overview\nThe Weather App is a real-time weather viewer that:\n\n- Displays current **temperature**, **wind speed**, **humidity**, and **precipitation**.\n- Provides live updates to keep you informed about the latest weather conditions.\n- Offers a customizable experience by allowing you to configure the location displayed in the **Settings Screen**."
     }
 ]
