@@ -9,7 +9,6 @@ import socket
 import json
 import os
 
-
 BUILD_VERSION = [1, 0, 0]
 try:
 	PASSWORD = json.load(open("settings.json"))["ScreenDeck"]["password"]
@@ -68,16 +67,21 @@ def saveSettings():
 	return ""
 
 
+@app.route("/killServer", methods=["POST"])
+def killServer():
+	os._exit(0)
+	
+
 @app.route("/close", methods=["POST"])
 def close():
-	try:
-		res = eval("close_" + currentActiveApp + "()")
-		if res is not None:
-			return res
-		else:
-			return ""
-	except:
-		return ""
+	if request.args.get("password") == PASSWORD:
+		try:
+			res = eval("close_" + currentActiveApp + "()")
+			if res is not None:
+				return res
+		except:
+			pass
+	return ""
 
 @app.route("/load", methods=["POST"])
 def load():
