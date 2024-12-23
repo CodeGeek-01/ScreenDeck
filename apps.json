@@ -24,7 +24,7 @@
         "min_version": "1.0.0",
         "default": "No",
         "date": "20-12-2024",
-        "descriptionMD": "test"
+        "descriptionMD": "## Overview\nThe Spotify Widget is a convenient tool that:\n\n- Displays your currently playing Spotify song in real-time.\n- Provides an aesthetic addition to your setup.\n\n## Setup Instructions\n\nFollow these steps to set up the Spotify Widget:\n\n1. **Visit the Spotify Developer Dashboard**\n  - Go to [Spotify Developer Dashboard](https://developer.spotify.com/dashboard) and log in to your Spotify account.\n\n2. **Create an Application**\n  - Click on **Create App**.\n  - Provide a name and description for your app (these can be anything).\n\n3. **Set the Redirect URI**\n  - Enter the following redirect URI: `http://<ip>:<port>/spotify/callback`\n  - Replace `<ip>` and `<port>` with the values shown in the widget's **Settings Menu**. \n - By default, the port is set to **5000**.\n\n4. **Finalize the Application**\n  - Click **Create** and navigate to the **Settings** page of your newly created app.\n\n5. **Copy the Credentials**\n  - Locate the **Client ID** and **Client Secret** values in the app settings.\n  - Paste these values into the corresponding fields in the widget's **Settings Menu**.\n\n## Features\n- **Real-Time Updates**: See the currently playing song updated in real-time.\n- **Customizable Display**: Adjust the widget's appearance to suit your style."
     },
     {
         "name": "Translate",
