@@ -106,7 +106,7 @@ def mainSettingsWrapper(settings):
     </div>
     <script>
       function killServer() {{
-        let text = "Are you sure you want to shut down the server? This will require you to restart it manually";
+        let text = "Are you sure you want to shut down the server? This will require you to restart it manually."
         if (confirm(text) == true) {{
           fetch(`/killServer?password=${{([...(new URLSearchParams(window.location.search))]).reduce((prev,curr)=>(Object.assign(prev,{{[curr[0]]:curr[1]}})),{{}})["password"]}}`, {{
             method: 'POST',
