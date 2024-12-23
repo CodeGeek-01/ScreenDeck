@@ -6,7 +6,7 @@
         "min_version": "1.0.0",
         "default": "Yes",
         "date": "12-06-2024",
-        "descriptionMD": "## Overview\nThe Hotkeys program is a versatile and user-friendly tool that allows you to:\n\n- Execute key combinations or commands with a single click.\n- Access these shortcuts directly from your phone, making it convenient and efficient to manage tasks remotely.\n\n## Features\n\n### Customizable Layout\n- Adjust the **number of rows and columns** to suit your needs through the **Settings Screen**.\n- Create layouts that perfectly match your workflow and device.\n\n### Fully Customizable Buttons\n- Personalize each button with:\n  - **Icons**: Add visual identifiers for easy recognition.\n  - **Actions**: Assign specific key combinations or commands to each button.\n- Tailor the interface to fit your preferences and make tasks quicker and easier to perform."
+        "descriptionMD": "## Overview\nThe Hotkeys program is a versatile and user-friendly tool that allows you to:\n\n- Execute key combinations or commands with a single click.\n- Access these shortcuts directly from your phone, making it convenient and efficient to manage tasks remotely.\n\n## Customizable\n- Adjust the **number of rows and columns** to suit your needs through the **Settings Screen**.\n- Create layouts that perfectly match your workflow and device.\n- Personalize each button with:\n  - **Icons**: Add visual identifiers for easy recognition.\n  - **Actions**: Assign specific key combinations or commands to each button.\n- Tailor the interface to fit your preferences and make tasks quicker and easier to perform."
     },
     {
         "name": "Passwords",
