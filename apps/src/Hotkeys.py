@@ -79,55 +79,54 @@ def editButtonsPage():
       --dark: white;
     }
 
-    body {
-      font-family: Arial, sans-serif;
-      padding: 20px;
-      color: white;
+    #editPage {
+      width: 100%;
+      height: 100%;
     }
-
-    #inputs-container {
+    
+    #editPage #inputs-container {
       margin-bottom: 20px;
     }
 
-    .input-group {
+    #editPage .input-group {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       gap: 10px;
     }
 
-    input[type="file"] {
+    #editPage input[type="file"] {
       display: block;
     }
 
-    button {
+    #editPage button {
       cursor: pointer;
     }
 
-    button:hover {
+    #editPage button:hover {
       background-color: #f0f0f0;
     }
 
-    #icon-preview {
+    #editPage #icon-preview {
       max-width: 100px;
       display: block;
     }
 
-    label {
+    #editPage label {
       display: block;
       margin-top: 10px;
     }
 
-    input[type="text"] {
+    #editPage input[type="text"] {
       flex-grow: 1;
     }
 
-    .input-group {
+    #editPage .input-group {
       padding: 10px;
       border-radius: 5px;
     }
 
-    .inp {
+    #editPage .inp {
       position: relative;
       margin: 0 auto;
       width: 100%;
@@ -138,7 +137,7 @@ def editButtonsPage():
       box-shadow: inset 0 -2px 0 rgba(255, 255, 255, 0.2);
     }
 
-    .inp .label {
+    #editPage .inp .label {
       position: absolute;
       top: 20px;
       left: 12px;
@@ -151,7 +150,7 @@ def editButtonsPage():
       pointer-events: none;
     }
 
-    .inp .focus-bg {
+    #editPage .inp .focus-bg {
       position: absolute;
       top: 0;
       left: 0;
@@ -163,7 +162,7 @@ def editButtonsPage():
       transform-origin: left;
     }
 
-    .inp input {
+    #editPage .inp input {
       -webkit-appearance: none;
       appearance: none;
       width: 100%;
@@ -178,28 +177,28 @@ def editButtonsPage():
       transition: all .15s ease;
     }
 
-    .inp input:hover {
+    #editPage .inp input:hover {
       background: rgba(var(--dark), .04);
       box-shadow: inset 0 -1px 0 rgba(var(--dark), .5);
     }
 
-    .inp input:not(:placeholder-shown) + .label {
+    #editPage .inp input:not(:placeholder-shown) + .label {
       color: rgba(var(--dark), .5);
       transform: translate3d(0, -12px, 0) scale(.75);
     }
 
-    .inp input:focus {
+    #editPage .inp input:focus {
       background: rgba(var(--dark), .05);
       outline: none;
       box-shadow: inset 0 -2px 0 var(--primary);
     }
 
-    .inp input:focus + .label {
+    #editPage .inp input:focus + .label {
       color: var(--primary);
       transform: translate3d(0, -12px, 0) scale(.75);
     }
 
-    .inp input:focus + .label + .focus-bg {
+    #editPage .inp input:focus + .label + .focus-bg {
       transform: scaleX(1);
       transition: all .1s ease;
     }
@@ -232,7 +231,7 @@ def editButtonsPage():
       margin: 3px 0;
     }
 
-    .button-9:focus {
+    #editPage .button-9:focus {
       box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
     }
 
@@ -241,7 +240,7 @@ def editButtonsPage():
       --darkgray: #2c3e50;
     }
 
-    input[type="text"] {
+    #editPage input[type="text"] {
       color: #fff;
       background-color: var(--darkgray);
       background-image: none;
@@ -253,11 +252,11 @@ def editButtonsPage():
       margin-bottom: 2px;
     }
 
-    input[type="text"]:focus {
+    #editPage input[type="text"]:focus {
       outline: none;
     }
 
-    select {
+    #editPage select {
       appearance: none;
       outline: 10px red;
       border: 0;
@@ -270,11 +269,11 @@ def editButtonsPage():
       cursor: pointer;
     }
 
-    select::-ms-expand {
+    #editPage select::-ms-expand {
       display: none;
     }
 
-    .select {
+    #editPage .select {
       position: relative;
       display: flex;
       width: 20em;
@@ -283,7 +282,7 @@ def editButtonsPage():
       overflow: hidden;
     }
 
-    .select::after {
+    #editPage .select::after {
       content: "↓";
       position: absolute;
       top: 0;
@@ -294,7 +293,7 @@ def editButtonsPage():
       pointer-events: none;
     }
 
-    .select:hover::after {
+    #editPage .select:hover::after {
       color: #007BFF;
     }
   </style>
@@ -502,7 +501,7 @@ def load():
         })
       }
     </script>
-    <div class="parent">
+    <div class="parent" id="editPage">
       <div class="grid-container">
         <buttonElements>
       </div>
