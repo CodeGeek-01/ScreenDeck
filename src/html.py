@@ -1,7 +1,7 @@
 def mainSettingsWrapper(settings):
   return f"""
     <style>
-      input {{
+      #settings input {{
         background: none;
         color: #d6d6d6; 
         font-size: 18px;
@@ -16,7 +16,7 @@ def mainSettingsWrapper(settings):
         height: 80%;
       }}
 
-      input:focus {{
+      #settings input:focus {{
         outline: none;
         border-bottom: 1px solid #0077FF;
       }}
@@ -94,7 +94,7 @@ def mainSettingsWrapper(settings):
       }}
 
     </style>
-    <div style="width: 90%; height: 55vh; overflow-y: scroll;">
+    <div style="width: 90%; height: 55vh; overflow-y: scroll;" id="settings">
       <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
         <h1 style="font-weight: bold;">Settings</h1>
         <button onclick="killServer()" style="appearance: button; backface-visibility: hidden; font-weight: bold; background-color: #ED3419; border-radius: 6px; border-width: 0; box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset, rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0; box-sizing: border-box; color: white; cursor: pointer; font-family: -apple-system, system-ui, 'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, sans-serif; font-size: 75%; height: 30px; line-height: 1.15; margin: 2px 0 0; outline: none; overflow: hidden; padding: 0 16px; position: relative; text-align: center; text-transform: none; transform: translateZ(0); transition: all 0.2s, box-shadow 0.08s ease-in; user-select: none; -webkit-user-select: none; touch-action: manipulation;">Kill Server</button>
